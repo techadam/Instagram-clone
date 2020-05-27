@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+* {
+  text-decoration: none !important;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  font-family: 'Grand Hotel', cursive;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .6rem 0rem;
+}
+
+nav hr {
+  margin: 0 !important;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1.2rem;
+}
+
+nav ul li a {
+  color: #333;
+}
+
+nav ul li button {
+  color: #333;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.btn-gradient {
+  background-image: linear-gradient(150deg, #DC3545 65px, yellow);
+  color: #fff;
+  font-weight: 800;
+  border: none;
+}
+
+.btn-gradient:hover {
+  color: #fff;
+}
+
+.landing-desc h1,
+.landing-desc p {
+  margin-bottom: 1.4rem !important;
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  background-image: linear-gradient(150deg, #DC3545 65px, yellow);
+  padding: .2rem;
+  border-radius: 50%;
+}
+
+.profile-img-inner {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  padding: .3rem;
+  border-radius: 50%;
+}
+
+.profile-img .img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid div {
+  margin-right: 1.2rem;
+}
+
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem 2rem;
+}
+
+.feed-img {
+  height: 200px;
+  border-radius: 8px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.feed-info {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: .5rem;
+  align-items: center;
+}
+
+.feed-info div {
+  margin-left: 1.4rem;
+}
+
+.feed-info div span:nth-child(2) {
+  padding-left: .2rem;
+}
+
+.card-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card .feed-info {
+  justify-content: flex-start;
+}
+
+.card .feed-info div:first-child {
+  margin-left: 0rem;
+}
+
+.card-comment {
+  width: 100%;
+  outline: 0;
+  border: none;
+  background-size: #fff;
+  height: 45px;
+  padding: 0rem 1.4rem;
+}
+
+.card-footer {
+  overflow-x: hidden;
+}
+
+.create-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.post-photo {
+  height: 200px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+}
+
+.post-photo input {
+  display: none;
+}
+
+.post-photo span {
+  border: 1px solid #ced4da;
+  padding: .7rem;
+  border-radius: 7px;
+}
